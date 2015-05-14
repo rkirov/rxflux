@@ -1,0 +1,16 @@
+{
+  "name": "tsflux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc *.ts -w -module commonjs",
+    "watch": "watchify main.js -o out.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rx": "^2.5.2"
+  }
+}
